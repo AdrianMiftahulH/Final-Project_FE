@@ -1,0 +1,29 @@
+.cont-header{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    border-bottom: 1px solid var(--icons_hover);
+    .title-page{
+        font-size: 25px;
+        font-weight: 500;
+        .link-page-naxt{
+            font-size: 16px;
+            font-weight: 300px;
+        }
+    }
+    .cont-profile{
+        .icon-btn-header{
+            margin: 0px 10px;
+            font-size: 24px;
+        }
+        .dropdown{
+            .dropdown-toggle{
+                margin-top: 4px;
+            }
+            .icons-link-profile{
+                font-size: 16px;
+                width: 30px;
+            }
+        }
+    }
+}

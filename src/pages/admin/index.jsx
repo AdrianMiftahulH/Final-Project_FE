@@ -1,3 +1,17 @@
-import ContBarang from "./Barang";
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+import { Header, NavBarAdmin } from '../../components/molekuls';
 
-export { ContBarang };
+const MainAdmin = () => {
+    return (
+        <div>
+            <NavBarAdmin />
+            <div className="home-section">
+                <Header />
+                <Outlet />
+            </div >
+        </div >
+    )
+}
+
+export default MainAdmin

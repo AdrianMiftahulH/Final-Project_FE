@@ -5,7 +5,7 @@
     --black: #000000;
     --hover_to_dark: #583002;
     --icons_hover: #E2C275;
-    --text_brown_dark: #120a00;
+    --text_brown_dark: #351d01;
     --Body: #fcf4d8;
 }
 
@@ -14,12 +14,4 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins" , sans-serif;
-}
-.botton{
-    background-color: var(--icons_hover);
-    color: #fff;
-    transition: 1s;
-}
-.botton:hover{
-    opacity: 0.6;
 }

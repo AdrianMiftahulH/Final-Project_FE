@@ -1,6 +1,6 @@
 import React from "react";
 import "./regis.scss";
-import { Botton, CarauselLogin, Input } from "../../components";
+import { Botton, CarauselLogin, Input } from "../../../components";
 
 class Regis extends React.Component {
   render() {

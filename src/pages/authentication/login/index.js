@@ -1,5 +1,5 @@
 import React from "react";
-import { Botton, CarauselLogin, Input } from "../../components";
+import { Botton, CarauselLogin, Input } from "../../../components";
 
 class Login extends React.Component {
     render() {

@@ -1,14 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const LinkNav = ({ href, name, icon }) => {
     return (
         <li>
-            <a href={href}>
-                <div className="i">{icon}</div>
+            <Link to={href}>
+                <i className={icon}></i>
                 <span className="links_name">{name}</span>
-            </a>
+            </Link>
             <span className="tooltip">{name}</span>
-        </li>
+        </li >
     )
 }
 
