@@ -1,12 +1,10 @@
 import React from 'react';
-import { SearchBar } from './List-Product/components/index';
-import CardList from './List-Product/components/card-list/card-list';
+import { Outlet } from 'react-router-dom';
 
 const Products = () => {
     return (
         <div>
-            <SearchBar />
-            <CardList />
+            <Outlet />
         </div >
     )
 }

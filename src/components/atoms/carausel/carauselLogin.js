@@ -3,10 +3,10 @@ import Carousel from "react-bootstrap/Carousel";
 
 const CarauselLogin = () => {
     return (
-        <Carousel slide={false}>
-            <Carousel.Item>
+        <Carousel slide={true} className="h-100">
+            <Carousel.Item className='h-100'>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 h-100"
                     src="https://picsum.photos/201/300"
                     alt="First slide"
                 />
@@ -17,9 +17,9 @@ const CarauselLogin = () => {
                     </p>
                 </Carousel.Caption>
                 </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className='h-100'>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 h-100"
                     src="https://picsum.photos/202/300"
                     alt="Second slide"
                 />
@@ -30,9 +30,9 @@ const CarauselLogin = () => {
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className='h-100'>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 h-100"
                     src="https://picsum.photos/200/300"
                     alt="Third slide"
                 />

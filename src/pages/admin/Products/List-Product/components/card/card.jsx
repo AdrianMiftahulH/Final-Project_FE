@@ -19,7 +19,7 @@ const CardProduct = ({ id, image, title, supp, total }) => {
                     <span>{total}</span>
                 </div>
                 <div className="cont-detail mt-2">
-                    <Link to={id} className='btn-detail btn py-1 px-5'>Detail</Link>
+                    <Link to="../Detail_product" className='btn-detail btn py-1 px-5'>Detail</Link>
                 </div>
             </div>
         </div>

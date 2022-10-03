@@ -16,9 +16,9 @@ class Header extends React.Component {
                             <i className="fa-solid fa-circle-user icon-btn-header"></i>
                         </button>
                         <ul className="dropdown-menu">
-                            <li><Link to="#" className="dropdown-item"><i class="fa-solid fa-user icons-link-profile"></i> Profile</Link></li>
+                            <li><Link to="#" className="dropdown-item"><i className="fa-solid fa-user icons-link-profile"></i> Profile</Link></li>
                             <li><Link to="#" className="dropdown-item"><i className="fa-solid fa-gears icons-link-profile"></i> Settings</Link></li>
-                            <li><Link to="#" className="dropdown-item mt-3"><i class="fa-solid fa-arrow-right-from-bracket icons-link-profile"></i>Log Out</Link></li>
+                            <li><Link to="#" className="dropdown-item mt-3"><i className="fa-solid fa-arrow-right-from-bracket icons-link-profile"></i>Log Out</Link></li>
                         </ul>
                     </div>
                 </div>

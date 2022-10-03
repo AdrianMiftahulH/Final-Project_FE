@@ -14,7 +14,7 @@ const NavBarAdmin = () => {
             </div>
             <ul className="nav-list">
                 <LinkNav href="dashboard" name="DashBoard" icon="imageLink fa-solid fa-chart-line" />
-                <LinkNav href="products" name="Product" icon="imageLink fa-solid fa-box-open" />
+                <LinkNav href="products/List_Product" name="Product" icon="imageLink fa-solid fa-box-open" />
                 <LinkNav href="supplier" name="Supplier" icon="imageLink fa-solid fa-industry" />
                 <li className="profile">
                     <div className="profile-details">

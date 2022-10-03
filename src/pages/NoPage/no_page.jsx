@@ -4,7 +4,7 @@ class NoPage extends React.Component {
     render() {
         return (
             <div>
-                NO FOUND PAGAE
+                NOT FOUND PAGE
             </div>
         )
     }

@@ -32,7 +32,7 @@ class SearchBar extends React.Component {
                     </div>
                 </div>
                 <div className="cont-create-product">
-                    <Link to="#" className='btn py-1 px-5 btn-primary'>Create</Link>
+                    <Link to="Create_Product" className='btn py-1 px-5 btn-primary'>Create</Link>
                 </div>
             </div>
         )

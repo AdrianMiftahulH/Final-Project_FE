@@ -1,7 +1,7 @@
 export const Product = [
     {
         id: 1,
-        image: "Jihan3",
+        image: "https://unsplash.com/photos/L8OnHwhCEE0",
         title: "Example Product 1",
         supp: "PT. Example 1",
         total: "100 pcs"
