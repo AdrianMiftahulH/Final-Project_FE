@@ -18,13 +18,13 @@ class Login extends React.Component {
                 <form action="">
                 <Input
                     name="username"
-                    placeholder="Nama Pengguna"
+                    placeholder="Username"
                     id="username"
                     type="text"
                 />
                 <Input
                     name="password"
-                    placeholder="Kata Sandi"
+                    placeholder="Password"
                     id="password"
                     type="password"
                 />

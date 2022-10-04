@@ -11,7 +11,7 @@ class Regis extends React.Component {
             {/* <CarauselLogin /> */}
           </div>
           <div className="content-login d-flex flex-column align-items-center justify-content-center">
-            <h1>Registrasi</h1>
+            <h1>Sign Up</h1>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
               dolores.
@@ -19,7 +19,7 @@ class Regis extends React.Component {
             <form action="">
               <Input
                 name="username"
-                placeholder="Nama Pengguna"
+                placeholder="Username"
                 id="username"
                 type="text"
               />
@@ -30,11 +30,11 @@ class Regis extends React.Component {
                 type="email" />
               <Input
                 name="password"
-                placeholder="Kata Sandi"
+                placeholder="Password"
                 id="password"
                 type="password"
               />
-              <Botton value="Register" />
+              <Botton value="Sign Up" />
             </form>
           </div>
         </div>

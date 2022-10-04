@@ -11,8 +11,8 @@ const DescProduct = () => {
                 </div>
                 <div className="descProduct d-flex flex-column">
                     <h1>Example product 1</h1>
-                    <span>Supplier: PT. Example</span>
-                    <span>Total Product: 100 pcs</span>
+                    <span><strong>Supplier: </strong>PT. Example</span>
+                    <span><strong>Total Product: </strong>100 pcs</span>
                     <p className='mt-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut unde quis cupiditate eius! Natus nulla repellendus quasi mollitia, possimus placeat accusantium officiis qui illum ex ipsa dolorem iste tempora autem recusandae laborum nemo commodi atque molestiae, debitis aut modi reprehenderit?</p>
                     <div className="btn-add d-flex flex-row mt-3">
                         <Link to="" className='btn-action-detail btn btn-primary'>Add Product</Link>

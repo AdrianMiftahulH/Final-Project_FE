@@ -4,7 +4,7 @@ const Table = () => {
     return (
         <>
             <div className="container mt-5">
-                <h5><i class="fa-solid fa-calendar-days"></i> Recent Product</h5>
+                <h5><i className="fa-solid fa-calendar-days"></i> Recent Product</h5>
                 <table className="table table-striped container mb-4">
                     <thead>
                         <tr>

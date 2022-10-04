@@ -9,7 +9,7 @@ const NavBarAdmin = () => {
         <div className={`sidebar ${open ? "" : "open"}`}>
             <div className="logo-details">
                 {/* <i className="fa-thin fa-barcode" className='logo'></i> */}
-                <div className="logo_name">Example</div>
+                <div className="logo_name">CafeDuls</div>
                 <i className="fa-solid fa-bars" onClick={() => setOpen(!open)} id="btn"></i>
             </div>
             <ul className="nav-list">
