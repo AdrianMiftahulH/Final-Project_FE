@@ -1,13 +1,18 @@
 import React from 'react'
-import { Jihan1 } from '../../../../assets'
-import { FormProduct } from '../../../../components/molekuls'
+import { CreateProduct, Header, NavBar } from '../../../../components/molekuls'
 
-class CreateProduct extends React.Component {
+class CreateProductPage extends React.Component {
     render() {
         return (
-            <FormProduct />
+            <>
+                <NavBar />
+                <div className="home-section">
+                    <Header titleHeader="Create Product" />
+                    <CreateProduct />
+                </div >
+            </>
         )
     }
 }
 
-export default CreateProduct
+export default CreateProductPage

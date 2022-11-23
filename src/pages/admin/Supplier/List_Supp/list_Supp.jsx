@@ -1,12 +1,21 @@
-import React from "react";
+import React from 'react';
+import { ContSearchBar } from '../../../../components/atoms';
+import { CardListSupp, Header, NavBar } from '../../../../components/molekuls/index';
 
-class List_Supp extends React.Children {
-    render() {
-        return (
-            <>
-            </>
-        )
-    }
+const ListSupp = () => {
+    return (
+        <>
+            <NavBar />
+            <div className="home-section">
+                <Header titleHeader="Supplier" />
+                {/* Mengambil component Searchbar */}
+                <ContSearchBar href="../Add_Supplier" btnCreate="Add Supplier" />
+                {/* Mengambil component list card */}
+                <CardListSupp />
+            </div >
+
+        </>
+    )
 }
 
-export default List_Supp
+export default ListSupp

@@ -1,0 +1,28 @@
+.img-profile{
+    width: 30%;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.item_name{
+    h4{
+        margin-bottom: 0pc;
+    }
+}
+.Link_Profile{
+    .link_item_profile{
+        padding-left: 10px;
+        height: 40px;
+        border-radius: 7px;
+        text-decoration: none;
+        color: #000;
+        .links_name_profile{
+            text-decoration: none;
+            color: #000;
+        }
+    }
+    .link_item_profile:hover{
+        background-color: var(--bodyAdmin);
+    }
+    
+}

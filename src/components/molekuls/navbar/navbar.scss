@@ -1,13 +1,20 @@
+:root{
+  --white: #ffffff;
+  --navHover: #d3d3d3;
+  --bodyAdmin: #fafafa;
+}
+
 .sidebar{
   position: fixed;
   left: 0;
   top: 0;
   height: 100%;
   width: 78px;
-  background: var(--BgNav);
+  background: var(--white);
   padding: 6px 14px;
   z-index: 99;
   transition: all 0.5s ease;
+  box-shadow: 3px 0px 10px 1px rgba(0,0,0,0.10);
   .logo-details{
     height: 60px;
     display: flex;
@@ -33,20 +40,21 @@
       font-size: 19px;
       text-align: center;
       cursor: pointer;
-      color: var(--icons_hover);
+      color: var(--black);
       transition: all 0.5s ease;
       width: 35px;
       line-height: 35px;
       height: 35px;
-      background-color: var(--BgNav);
-      border-radius: 0px 50% 50% 0px;
+      background-color: var(--white);
+      border-radius: 50%;
+      box-shadow: 3px -1px 10px 1px rgba(0,0,0,0.10);
     }
     #btn:hover{
       transform: translate(-20%, -50%);
     }
   }
   .imageLink{
-    color: var(--icons_hover);
+    color: var(--black);
     height: 60px;
     min-width: 50px;
     font-size: 28px;
@@ -108,7 +116,7 @@
       align-items: center;
       text-decoration: none;
       transition: all 0.4s ease;
-      background: var(--BgNav);
+      background: var(--white);
       .links_name{
         color: var(--black);
         font-size: 15px;
@@ -120,7 +128,7 @@
       }
     }
     a:hover{
-      background: var(--icons_hover);
+      background: var(--navHover);
     }
     .imageLink{
       height: 50px;
@@ -194,7 +202,6 @@
       .links_name,
       i{
         transition: all 0.5s ease;
-        color: var(--BgNav);
       }
     }
     .profile-details{
@@ -222,7 +229,7 @@
 }
 .home-section{
   position: relative;
-  background: var(--section);
+  background: var(--bodyAdmin);
   min-height: 100vh;
   top: 0;
   left: 78px;
@@ -236,7 +243,7 @@
 }
 .home-section .text{
   display: inline-block;
-  color: var(--BgNav);
+  color: var(--bodyAdmin);
   font-size: 25px;
   font-weight: 500;
   margin: 18px

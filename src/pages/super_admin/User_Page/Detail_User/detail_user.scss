@@ -1,0 +1,17 @@
+.profile-card{
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    width: 25%;
+    height: 65vh;
+    border-radius: 10px;
+    padding: 25px;
+}
+.log-acticty-profile{
+    width: 68%;
+    height: 80vh;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    border-radius: 7px;
+    padding: 25px;
+    overflow-y: scroll;
+}

@@ -16,9 +16,14 @@
     font-family: "Poppins" , sans-serif;
 }
 .botton{
-    background-color: var(--icons_hover);
+    background-color: #171717;
     color: #fff;
     transition: 1s;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 14px;
 }
 .botton:hover{
     opacity: 0.6;

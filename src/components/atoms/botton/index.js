@@ -1,12 +1,11 @@
 import React from 'react';
-import Form from 'react-bootstrap/Form';
 import './botton.scss';
 
-const Submit = ({value}) => {
+const Submit = ({value, onClick, type}) => {
     return (
-        <Form.Group className="mt-5" controlId="formBasicEmail">
-            <Form.Control className="botton" type="submit" value={value} />
-        </Form.Group>
+        <div className="mt-5">
+            <button type={type} className="botton" onClick={onClick}>{value}</button>
+        </div>
     )
 }
 
